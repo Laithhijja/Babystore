@@ -1,0 +1,370 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Montserrat&family=Poppins:wght@300&family=Roboto&display=swap');
+ 
+
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+nav{
+		 
+		 position:fixed;
+	     top:0; left:0; right:0;
+	     width:100%;
+	     display:flex;
+	     justify-content:space-between;
+	     align-items:center;
+	     padding:1.5rem 7%;
+	     background-color:#fff;
+	     z-index:1000;
+	     box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+		 
+	 }
+.navbar-brand span{
+		color:#82E0AA;
+		
+		
+	}
+.navbar-nav{
+		
+		color:#82E0AA;
+	}
+	
+#active,
+	.nav-item a:hover{
+		color:#82E0AA;
+	}
+.heading{
+      width: 100%;
+      text-align: center;
+  }
+.heading{
+      font-size: 24px;
+      text-transform: uppercase;
+  }
+.heading span{
+     color:#82E0AA;
+	 text-transform: uppercase;
+  }
+.icon-link svg{
+      margin-right:10px;
+	  
+	}
+.img-thumbnail {
+            border: none;
+        }
+
+.card {
+         box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+         border-radius: 5px;
+         padding-bottom: 10px;
+
+     }
+
+.card-title {
+         font-size: 14px;
+         font-weight: 900;
+     }
+
+.card-text {
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 500;
+}
+section{
+   padding:4rem;
+}
+
+.heading{
+   font-size: 24px;
+   color:black;
+   margin-bottom: 2rem;
+}
+.btn{
+   display: block;
+   width:auto;
+   text-align: center;
+   background-color:#82E0AA;
+   color:white;
+   font-size: 18px;
+   padding:8px 8px;
+   border-radius: .5rem;
+   cursor: pointer;
+   margin-top: 1rem;
+}
+.option-btn,
+.delete-btn{
+   display: block;
+   width: 100%;
+   text-align: center;
+   background-color:black;
+   color:white;
+   font-size: 18px;
+   padding:5px 5px;
+   border-radius: .5rem;
+   cursor: pointer;
+   margin-top: 1rem;
+}
+
+.btn:hover,
+.option-btn i:hover,
+.delete-btn i:hover{
+   color:black;
+}
+.delete-btn  {
+  margin-top:-5px;
+
+}
+
+.image1 img {
+	   width:300px;
+	   float:right;
+	   border-top:2px solid #82E0AA;
+	   border-left:2px solid #82E0AA;
+	}  
+.image1 img {
+	   padding-top:20px;
+	   padding-left:20px;
+	   
+	}
+	
+.col-md-6 p{
+	   font-size:20px;
+	   
+	   
+	}
+.container h3 span{
+	  color:#82E0AA;
+	}
+.container h3 span{
+	  color:#82E0AA;
+	}
+/*contact*/
+.contact-form-wrapper {
+     padding: 20px 0;
+	 
+    }
+.contact-form .form-input,
+.form-text-area {
+    background-color: #fff;
+    height: 50px;
+    padding-left: 16px;
+    box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+   }
+
+.contact-form .form-text-area {
+     background-color: #fff;
+     box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+     height: auto;
+     padding-left: 16px;
+   }
+
+.contact-form .form-control::placeholder {
+     color: #aeb4b9;
+     font-weight: 500;
+     opacity: 1;
+   }
+
+.contact-form .form-control:-ms-input-placeholder {
+     color: #aeb4b9;
+     font-weight: 500;
+   }
+
+.contact-form .form-control::-ms-input-placeholder {
+     color: #aeb4b9;
+     font-weight: 500;
+   }
+
+.contact-form .form-control:focus {
+     border-color: #82E0AA;
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #82E0AA;
+   }
+
+.contact-form .description {
+     color: #aeb4b9;
+     font-size: 18px;
+     text-align: center;
+   }
+
+.contact-form .submit-button-wrapper {
+     text-align: center;
+	 text-decoration:none;
+   }
+
+.contact-form .submit-button-wrapper input {
+     border: none;
+     border-radius: 4px;
+     background-color:#82E0AA;
+     color: white;
+     text-transform: uppercase;
+     padding: 10px 60px;
+     font-weight: 500;
+     letter-spacing: 2px;
+   }
+
+.contact-form .submit-button-wrapper input:hover {
+      background-color: #82E0AA;
+   }
+.col-lg-3 .card {
+         box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+         border-radius: 5px;
+         padding-bottom: 10px;
+		 margin-left:0.5vh;
+		
+}
+.table-bottom .delete-btn:hover{
+	
+	color:black;
+}
+
+/*cart*/
+.shopping-cart table{
+   text-align: center;
+   width: 100%;
+}
+
+.shopping-cart table thead th{
+   padding:18px;
+   font-size:18px 8px;
+   color:white;
+   background-color:#82E0AA;
+}
+
+.shopping-cart table tr td{
+   padding:18px 8px;
+   font-size: 18px;
+   color:black;
+}
+
+.shopping-cart table input[type="number"]{
+   border:2px solid black;
+   padding:8px 8px;
+   font-size:18px;
+   color:black;
+   width: 5rem;
+}
+
+.shopping-cart table input[type="submit"]{
+   font-size:18px;
+   color:black;
+   background-color:white;
+   
+}
+
+.shopping-cart .checkout-btn{
+   text-align: center;
+   margin-top: 1rem;
+   
+}
+
+.shopping-cart .checkout-btn a{
+   display: inline-block;
+   width: 300px;
+}
+
+.shopping-cart .checkout-btn a.disabled{
+   pointer-events: none;
+   opacity: .5;
+   user-select: none;
+   color:black;
+}
+
+/*checkout*/
+
+.checkout-form form{
+   width:80%;
+   padding:2rem;
+   border-radius: .5rem;
+   background-color:#fff;
+   margin-left:100px;
+   box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+}
+
+.checkout-form form .flex{
+   display: flex;
+   flex-wrap:wrap;
+   gap:1.5rem;
+}
+
+.checkout-form form .flex .inputBox{
+   flex:1 1 40rem;
+   
+}
+
+.checkout-form form .flex .inputBox span{
+   text-align:left;
+   font-size:18px;
+   color:black;
+}
+
+.checkout-form form .flex .inputBox input,
+.checkout-form form .flex .inputBox select{
+   width:100%;
+   height:60px;
+   background-color:#fff;
+   font-size:16px;
+   color:balck;
+   border-radius: .5rem;
+   margin:1rem 0;
+   padding:1.2rem 1.5rem;
+   text-transform: none;
+   border:1px solid black;
+}
+
+.display-order{
+   max-width: 100%;
+   text-align:left;
+   margin:0 auto;
+   margin-bottom: 2rem;
+}
+
+.display-order span{
+   display:block;
+   border-radius: .5rem;
+   padding:0.5rem 2rem 0 .5rem;
+   font-size:18px;
+   color:black;
+}
+
+.display-order span.grand-total{
+   width:100%;
+   border:1px solid black;
+   color:black;
+   padding:8px;
+   
+}
+
+/*admin*/
+
+
+/*footer*/
+
+footer{
+	  background-color:#fff;
+	  box-shadow:0 .5rem 1.5rem rgba(0,0,0,.2);
+	  font-size:18px;
+	  margin-top:200px;
+	}
+footer span{
+	  color:#82E0AA;
+ 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
